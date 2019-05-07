@@ -1,4 +1,4 @@
-package main
+package confinement
 
 import (
 	"bytes"
@@ -6,7 +6,7 @@ import (
 	"sync"
 )
 
-func main() {
+func aaa() {
 	printData := func(wg *sync.WaitGroup, data []byte) {
 		defer wg.Done()
 

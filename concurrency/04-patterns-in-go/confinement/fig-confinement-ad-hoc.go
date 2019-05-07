@@ -1,10 +1,10 @@
-package main
+package confinement
 
 import (
 	"fmt"
 )
 
-func main() {
+func adhoc() {
 	data := make([]int, 4)
 
 	loopData := func(handleData chan<- int) {
